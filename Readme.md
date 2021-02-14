@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+# Welcome to Ivan Shamrai's CV
+
+# Work experience
+## [Exactpro](https://exactpro.com/)
+<DBU>
 
 You can use the [editor on GitHub](https://github.com/IShamraI/cv/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
