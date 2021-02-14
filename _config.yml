@@ -90,12 +90,12 @@ content:
         quote: >
           BPC Banking Technologies creates payments solutions.
       - layout: right
-        title: ![Exactpro](images/exactpro.svg)
+        title: Exactpro
         sub_title: QA Automation lead / QA Lead / Senior QA Analyst
         caption: February 2014 — August 2020
         link: https://exactpro.com/
         quote: >
-          Exactpro specializes in quality assurance services and related software development with focus on test automation for securities data distribution, trading systems, risk management, market surveillance and post-trade infrastructures.
+          ![Exactpro](images/exactpro.svg) Exactpro specializes in quality assurance services and related software development with focus on test automation for securities data distribution, trading systems, risk management, market surveillance and post-trade infrastructures.
         description: | # this will include new lines to allow paragraphs
           Description of role
   - title: Education
