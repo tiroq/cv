@@ -34,10 +34,10 @@ linkedin_username: ivan-shamray-6b177628
 #orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -83,12 +83,19 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: BPC Banking Technologies
+        sub_title: QA Lead
+        caption: August 2020 — present
+        link: https://www.bpcbt.com/
         quote: >
-          Short description of the company (optional)
+          BPC Banking Technologies creates payments solutions.
+      - layout: right
+        title: Exactpro
+        sub_title: QA Automation lead / QA Lead / Senior QA Analyst
+        caption: February 2014 — August 2020
+        link: https://exactpro.com/
+        quote: >
+          Exactpro specializes in quality assurance services and related software development with focus on test automation for securities data distribution, trading systems, risk management, market surveillance and post-trade infrastructures.
         description: | # this will include new lines to allow paragraphs
           Description of role
   - title: Education
