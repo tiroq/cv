@@ -90,7 +90,7 @@ content:
         quote: >
           BPC Banking Technologies creates payments solutions.
       - layout: right
-        title: Exactpro
+        title: ![Exactpro](images/exactpro.svg)
         sub_title: QA Automation lead / QA Lead / Senior QA Analyst
         caption: February 2014 — August 2020
         link: https://exactpro.com/
