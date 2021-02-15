@@ -153,18 +153,18 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Network Engineer / System Administrator
+      time: December 2010 – March 2013
+      company: All-Russia Research Institute of Hydrometeorological Information, World Data Centre (RIHMI-WDC). Russia, Obninsk.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Responsibilities:
+          - Creating, migrating and support VMs in ESXi
+          - Managing, support and configuration network
+          - Support remote servers
 
-          - Bullet point
-          - Bullet point
+        Achievements: 
+          - Integration of monitoring IT-infrastructure system
+          - Integration the central communication infrastructure solution of METEORF
 
 #projects:
     #title: Projects
