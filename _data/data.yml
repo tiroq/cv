@@ -93,6 +93,12 @@ experiences:
           - Automated backup/restore Procedures for manual test environments configuration
           - Introduced tasks prioritization rules
 
+        Skills / Technologies:
+          - Jira, Confluence
+          - Gitlab CI/Jenkins
+          - Python, Shell/Bash
+          - PLSQL
+
     - role: Quality Assurance Team Lead
       time: May 2018 – August 2020
       company: Exactpro, Russia, Obninsk (exactpro.com)
@@ -108,6 +114,14 @@ experiences:
         Achievements:
           - Decreased manual support of the testing environment for 2-4 times
           - PoC/support for big data analysis tool
+
+        Skills / Technologies:
+          - Jira, Confluence, Redmine
+          - Python, Shell/Bash, Golang
+          - MSSQL, PLSQL
+          - Excel, PowerPoint reporting
+          - Ansible
+          - Jmeter
 
     - role: Senior Quality Assurance Specialist
       time: October 2016 – May 2018
@@ -126,6 +140,14 @@ experiences:
           - Automated non-functional testing for 4 projects
           - Automated monitoring of testing environments
 
+        Skills / Technologies:
+          - Jira, Confluence, Redmine
+          - Python, Shell/Bash, Golang
+          - MSSQL, PLSQL
+          - Excel, PowerPoint reporting
+          - Ansible
+          - Jmeter
+
     - role: Quality Assurance Specialist
       time: February 2014 – October 2016
       company: Exactpro, Russia, Obninsk (exactpro.com)
@@ -137,8 +159,15 @@ experiences:
           - Analyze technical documentation and requirements.
           - Check the validity of applications and environment.
           - Analyze and report the identified problems.
+
         Achievements:
           - PoC for non-functional automating testing framework
+
+        Skills / Technologies:
+          - Jira, Confluence, Redmine
+          - Python, Shell/Bash
+          - MSSQL, PLSQL
+          - Excel, PowerPoint reporting
 
     - role: System Administrator Weblogic and Oracle Service Bus
       time: March 2013 – February 2014
@@ -149,8 +178,16 @@ experiences:
           - Performance monitoring.
           - Real-time problem solving in production.
           - Support Test environments
+
         Achievements:
           - Automated test environments configuration/deployment
+
+        Skills / Technologies:
+          - System administration: RHEL
+          - Weblogic and Oracle Service Bus System Administration
+          - Practical experience in creating scripts Python\Jython\Shell.
+          - Hands-on experience with HTTP servers(Apache).
+          - Jira, Remedy, CA Wily(Monitoring system)
 
     - role: Network Engineer / System Administrator
       time: December 2010 – March 2013
@@ -164,6 +201,15 @@ experiences:
         Achievements: 
           - Integration of monitoring IT-infrastructure system
           - Integration the central communication infrastructure solution of METEORF
+
+        Skills / Technologies:
+          - System administration: vmware ESXi servers; UNIX servers(ОС FreeBSD);kernel recompile; network based on D-Link, Ubiquiti, Mikrotik, Cisco Catalyst, Cisco ASA, Zyxel.
+          - Web:apache, nginx
+          - DB: MySQL, PosgreSQL
+          - Deployment and Maintenance: php, WikiMapia, MySQL, ProFTPd, Samba, packetfilter (pf)
+          - Distributed Monitoring System (Zabbix)
+          - Practical experience in creating scripts python, perl, sh, bash, php
+          - DNS Server (Named)
 
 #projects:
     #title: Projects
