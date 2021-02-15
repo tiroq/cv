@@ -44,9 +44,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Currently full-time Applied Scientist at AWS. After a double master degree at KTH (Stochkolm, Sweden) and Politecnico di Torino (Torino, Italy), 
-      I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image processing under the supervision of Bjoern Ommer.
-      Lately I successfully completed an internship at AWS in Pasadena under the supervision of Pietro Perona.
+      Currently, full-time QA Lead at BPC Banking Technologies. After a successful path as a QA specialist, I've changed the focus to automation and my team. I have a lot of ideas on how to improve my work, my team's work, and testing processes, but I can't clone myself to realize it. That the main reason for changing the focus, since I can do only limited work, but my team can realize more.
 
 # news:
 #     title: News
@@ -123,22 +121,71 @@ educationcomplete:
 
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Quality Assurance Team Lead
+      time: August 2020 - Present
+      company: BPC Banking Technologies, Russia, Obninsk
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Responsibilities:
+          - Develop QA Processes and Procedures.
+          - Identify Bugs and Issues.
+          - Maintain QA Documentation.
+          - Manage Testing Schedules.
 
-          - Bullet point
-          - Bullet point
+        Achievements:
+          - Team's workload analysis based on Jira data to find out bottlenecks
+          - Automated testing in Kubernetes(test environment for each feature branch in gitlab)
+          - Automated builds check before starting QA activities(to reduce QA effort in case branch is broken)
+          - Auto-tests on each git branch before merging features
+          - Standardise environments for manual testing
+          - Automated backup/restore Procedures for manual test environments configuration
+          - Introduced tasks prioritization rules
+
+    - role: Quality Assurance Team Lead
+      time: May 2018 – August 2020
+      company: Exactpro, Russia, Obninsk (exactpro.com)
+      details: |
+        Responsibilities:
+          - Test automation for financial applications(not classical cases)
+          - Load testing
+          - Development Automated Testing&Analysis Tools
+          - Analyze technical documentation and requirements.
+          - Mentor and guide a team of software testers, including junior team members.
+          - Meet challenging deadlines.
+          - Enhance/optimize testing processes.
+        Achievements:
+          - Decreased manual support of the testing environment for 2-4 times
+          - PoC/support for big data analysis tool
+
+    - role: Senior Quality Assurance Specialist
+      time: October 2016 – May 2018
+      company: Exactpro, Russia, Obninsk (exactpro.com)
+      details: |
+        Responsibilities:
+          - Development of functional and regression test scenarios, test cases, test scripts;
+          - Test automation for financial applications(not classical cases)
+          - Load testing
+          - Development Automated Testing&Analysis Tools
+          - Analyze technical documentation and requirements.
+          - Mentor and guide a team of software testers, including junior team members.
+          - Check the validity of applications and environment.
+          - Analyze and report the identified problems.
+        Achievements:
+          - Automated non-functional testing for 4 projects
+          - Automated monitoring of testing environments
+
+    - role: Quality Assurance Specialist
+      time: February 2014 – October 2016
+      company: Exactpro, Russia, Obninsk (exactpro.com)
+      details: |
+        Responsibilities:
+          - Development of functional and regression test scenarios, test cases, test scripts;
+          - Load testing
+          - Development Automated Testing&Analysis Tools
+          - Analyze technical documentation and requirements.
+          - Check the validity of applications and environment.
+          - Analyze and report the identified problems.
+        Achievements:
+          - PoC for non-functional automating testing framework
 
     - role: System Administrator Weblogic and Oracle Service Bus
       time: March 2013 – February 2014
