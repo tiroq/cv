@@ -140,18 +140,17 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: System Administrator Weblogic and Oracle Service Bus
+      time: March 2013 – February 2014
+      company: Home Credit & Finance Bank, Russia, Obninsk
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Responsibilities:
+          - 24x7 support of central integrated system(OSB).
+          - Performance monitoring.
+          - Real-time problem solving in production.
+          - Support Test environments
+        Achievements:
+          - Automated test environments configuration/deployment
 
     - role: Network Engineer / System Administrator
       time: December 2010 – March 2013
