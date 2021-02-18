@@ -111,23 +111,29 @@ experiences:
           - Mentor and guide a team of software testers, including junior team members.
           - Meet challenging deadlines.
           - Enhance/optimize testing processes.
+
         Achievements:
           - Decreased manual support of the testing environment for 2-4 times
           - PoC/support for big data analysis tool
 
-        Skills / Technologies:
+        Automation/Data visualisation:
+          - Time series database InfluxDB
+          - Grafana
+          - Ansible
+          - Jmeter
+
+        Trading:
           - Low latency trading systems
           - Trading FIX protocol
           - Native exchange protocols
           - ITCH Protocol
-          - Time series database InfluxDB
-          - Grafana
+        
+        Dev/Scripting: Python, Shell/Bash, Golang
+        
+        DBs: MySQL, MSSQL, PLSQL
+
+        Other Skills / Technologies:
           - Jira, Confluence, Redmine
-          - Python, Shell/Bash, Golang
-          - MSSQL, PLSQL
-          - Excel, PowerPoint reporting
-          - Ansible
-          - Jmeter
           - Corda
 
     - role: Senior Quality Assurance Specialist
@@ -143,23 +149,29 @@ experiences:
           - Mentor and guide a team of software testers, including junior team members.
           - Check the validity of applications and environment.
           - Analyze and report the identified problems.
+
         Achievements:
           - Automated non-functional testing for 4 projects
           - Automated monitoring of testing environments
 
-        Skills / Technologies:
+        Automation/Data visualisation:
+          - Time series database InfluxDB
+          - Grafana
+          - Ansible
+          - Jmeter
+
+        Trading:
           - Low latency trading systems
           - Trading FIX protocol
           - Native exchange protocols
           - ITCH Protocol
-          - Time series database InfluxDB
-          - Grafana
+        
+        Dev/Scripting: Python, Shell/Bash, Golang
+        
+        DBs: MySQL, MSSQL, PLSQL
+
+        Other Skills / Technologies:
           - Jira, Confluence, Redmine
-          - Python, Shell/Bash, Golang
-          - MSSQL, PLSQL
-          - Excel, PowerPoint reporting
-          - Ansible
-          - Jmeter
 
     - role: Quality Assurance Specialist
       time: February 2014 – October 2016
@@ -176,15 +188,18 @@ experiences:
         Achievements:
           - PoC for non-functional automating testing framework
 
-        Skills / Technologies:
+        Trading:
           - Low latency trading systems
           - Trading FIX protocol
           - Native exchange protocols
           - ITCH Protocol
+        
+        Scripting: Python, Shell/Bash
+        
+        DBs: MySQL, MSSQL, PLSQL
+
+        Other Skills / Technologies:
           - Jira, Confluence, Redmine
-          - Python, Shell/Bash
-          - MSSQL, PLSQL
-          - Excel, PowerPoint reporting
 
     - role: System Administrator Weblogic and Oracle Service Bus
       time: March 2013 – February 2014
