@@ -47,6 +47,7 @@ career-profile:
       Currently, full-time QA Lead at BPC Banking Technologies. After a successful path as a QA specialist, I've changed the focus to automation and my team. I have a lot of ideas on how to improve my work, my team's work, and testing processes, but I can't clone myself to realize it. That the main reason for changing the focus, since I can do only limited work, but my team can realize more.
 
       I have experience with management small teams(up to 20 specialists)
+      
       Control of deadlines of team's tasks
 
       Personal skills:
@@ -285,27 +286,27 @@ experiences:
         #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+#     title: Skills &amp; Proficiency
 
-    # toolset:
-    #   - name: Python
-    #     level: 90%
+#     # toolset:
+#     #   - name: Python
+#     #     level: 90%
 
-    #   - name: PyTorch
-    #     level: 90%
+#     #   - name: PyTorch
+#     #     level: 90%
 
-    #   - name: Tensorflow
-    #     level: 60%
+#     #   - name: Tensorflow
+#     #     level: 60%
 
-    #   - name: Caffe
-    #     level: 80%
+#     #   - name: Caffe
+#     #     level: 80%
 
-    #   - name: Matlab
-    #     level: 90%
+#     #   - name: Matlab
+#     #     level: 90%
 
-    #   - name: C/C++
-    #     level: 75%
+#     #   - name: C/C++
+#     #     level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by Ivan Shamrai</a>
