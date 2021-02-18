@@ -119,6 +119,8 @@ experiences:
           - Trading FIX protocol
           - Native exchange protocols
           - ITCH Protocol
+          - Time series database InfluxDB
+          - Grafana
           - Jira, Confluence, Redmine
           - Python, Shell/Bash, Golang
           - MSSQL, PLSQL
@@ -148,6 +150,8 @@ experiences:
           - Trading FIX protocol
           - Native exchange protocols
           - ITCH Protocol
+          - Time series database InfluxDB
+          - Grafana
           - Jira, Confluence, Redmine
           - Python, Shell/Bash, Golang
           - MSSQL, PLSQL
