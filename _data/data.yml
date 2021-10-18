@@ -112,6 +112,7 @@ experiences:
           - Jira, Confluence
           - Gitlab CI/Jenkins
           - Python, Shell/Bash
+          - Golang
           - PLSQL
 
     - role: Quality Assurance Team Lead
