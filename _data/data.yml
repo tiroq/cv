@@ -100,9 +100,7 @@ experiences:
           - Integrate Vault into pipelines
           - Create CLI tool to manage development boards
           - Optimization of docker images usage
-          - Create CAN BUS server to test the target hardware
-          - Create UDS server to test the target hardware
-          - Create MQTT client to test the target hardware
+          - Create CAN server/UDS server/MQTT client to test the target hardware
 
         Skills / Technologies:
           - AzureDevops, Confluence
