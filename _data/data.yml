@@ -44,7 +44,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Currently, full-time QA Automation Engineer. After a successful path as a QA specialist, I've changed the focus to automation.
+      Currently, full-time Software Development Engineer in Test / DevOps. After a successful path as a QA specialist, I've changed the focus to automation and development in test.
 
       Personal skills:
         - Communication
@@ -85,8 +85,34 @@ educationcomplete:
 
 
 experiences:
+    - role: Software Development Engineer in Test(Python) / DevOps (AzureDevops)
+      time: June 2022 - Present
+      company: <a href="https://www.kaspersky.com/">Kaspersky</a>
+      details: |
+        Responsibilities:
+          - Develop Test Automation Framework.
+          - Maintain QA Documentation.
+          - Manage Testing Schedules.
+          - Create/support build/test pipelines.
+          - Create/update test benches(connect and configure hardware)
+
+        Achievements:
+          - Integrate Vault into pipelines
+          - Create CLI tool to manage development boards
+          - Optimization of docker images usage
+          - Create CAN BUS server to test the target hardware
+          - Create UDS server to test the target hardware
+          - Create MQTT client to test the target hardware
+
+        Skills / Technologies:
+          - AzureDevops, Confluence
+          - Python, Shell/Bash
+          - pytest, click, hvac
+          - Automotive
+          - Embedded Testing
+
     - role: Quality Assurance Automation Engineer Senior (Python)
-      time: September 2021 - Present
+      time: September 2021 - June 2022
       company: <a href="https://www.lenovo.com/">Lenovo</a>
       details: |
         Responsibilities:
@@ -100,6 +126,7 @@ experiences:
           - Reduce time of tests execution
           - Migrate CI/CD from Bamboo to Jenkins
           - Update framework structure to reduce repeated code
+          - Rreverse engineering internal proto, based on ZeroMQ and creation test client for test framework
 
         Skills / Technologies:
           - Jira, Confluence, Bitbucket
@@ -108,7 +135,6 @@ experiences:
           - pytest, jsonschema, jwt
           - SQLite
 
-    
     - role: Quality Assurance Team Lead
       time: August 2020 - September 2021
       company: <a href="https://www.bpcbt.com/">BPC Banking Technologies, Russia, Moscow</a>
