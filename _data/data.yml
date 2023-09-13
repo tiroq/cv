@@ -44,18 +44,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Currently, full-time Software Development Engineer in Test / DevOps. After a successful path as a QA specialist, I've changed the focus to automation and development in test.
-
-      Personal skills:
-        - Communication
-        - Networking
-        - Self-motivation
-        - Time management
-        - Leadership
-        - Problem solver
-        - Mentoring
-
-      Please note, the order is not the priority :) Each day you should reorder it in Agile style.
+      As a Software Development Engineer in Test / DevOps, I have a passion for automation and quality assurance. I have a proven track record of delivering reliable and robust solutions for various projects and domains. I possess the following personal skills that make me an asset to any team:
+        - Effective communication and collaboration with stakeholders and peers
+        - Strong networking and relationship-building abilities
+        - High self-motivation and initiative to learn new technologies and tools
+        - Excellent time management and prioritization skills
+        - Leadership and mentoring experience in agile environments
+        - Creative and analytical problem-solving skills
+      I am always eager to take on new challenges and opportunities to grow as a professional.
 
 
 education:
@@ -89,22 +85,24 @@ experiences:
       time: June 2022 - Present
       company: <a href="https://www.kaspersky.com/">Kaspersky</a>
       details: |
-        Responsibilities:
-          - Develop Test Automation Framework.
-          - Maintain QA Documentation.
-          - Manage Testing Schedules.
-          - Create/support build/test pipelines.
-          - Create/update test benches(connect and configure hardware)
+        As a Software Development Engineer in Test / DevOps, I am responsible for:
+          - Designing and implementing a test automation framework for the current project using Python and pytest
+          - Maintaining and updating the QA documentation using Confluence
+          - Managing and coordinating the testing schedules and activities using AzureDevops(TFS)
+          - Creating and supporting the build/test pipelines
+          - Creating and updating the test benches using various hardware components and tools such as development boards, CAN server, UDS server, and MQTT client
 
-        Achievements:
-          - Integrate Vault into pipelines
-          - Create CLI tool to manage development boards
-          - Optimization of docker images usage
-          - Create CAN server/UDS server/MQTT client to test the target hardware
+        Some of my achievements include:
+          - Integrating Vault into the pipelines to securely store and access sensitive data
+          - Developing a CLI tool to manage the development boards and their configurations
+          - Optimizing the docker images usage to reduce the resource consumption and improve the performance
+          - Creating and running functional and non-functional tests for the target hardware using Grafana, InfluxDB, and custom tools
+          - Developing a non-functional testing methodology and tools to measure and analyze the quality attributes of the system such as reliability, scalability, etc.
 
-        Skills / Technologies:
+        I have extensive experience and knowledge in the following skills and technologies:
           - AzureDevops, Confluence
-          - Python, Shell/Bash
+          - Python, Shell/Bash, Golang
+          - Grafana, InfluxDB
           - pytest, click, hvac
           - Automotive
           - Embedded Testing
@@ -113,46 +111,39 @@ experiences:
       time: September 2021 - June 2022
       company: <a href="https://www.lenovo.com/">Lenovo</a>
       details: |
-        Responsibilities:
-          - Develop Test Automation Framework.
-          - Identify Bugs and Issues.
-          - Maintain QA Documentation.
-          - Manage Testing Schedules.
+        My role as a Quality Assurance Automation Engineer involves:
+          - Designing and developing a test automation framework using Python, pytest, jsonschema, and jwt
+          - Identifying and reporting bugs and issues using Jira
+          - Maintaining and updating the QA documentation using Confluence
+          - Managing and coordinating the testing schedules and activities using Bamboo/Jenkins
 
-        Achievements:
-          - Increase success rate of tests up to 95%
-          - Reduce time of tests execution
-          - Migrate CI/CD from Bamboo to Jenkins
-          - Update framework structure to reduce repeated code
-          - Rreverse engineering internal proto, based on ZeroMQ and creation test client for test framework
-
-        Skills / Technologies:
-          - Jira, Confluence, Bitbucket
-          - Bamboo/Jenkins
-          - Python, Shell/Bash
-          - pytest, jsonschema, jwt
-          - SQLite
+        Some of my accomplishments include:
+          - Increasing the success rate of tests up to 95%
+          - Reducing the time of tests execution by optimizing the test scripts
+          - Migrating the CI/CD from Bamboo to Jenkins to enhance the integration and delivery process
+          - Updating the framework structure to reduce repeated code and improve the maintainability and readability
+          - Reverse engineering the internal proto based on ZeroMQ and creating a test client for the test framework to enable more comprehensive testing
 
     - role: Quality Assurance Team Lead
       time: August 2020 - September 2021
       company: <a href="https://www.bpcbt.com/">BPC Banking Technologies, Russia, Moscow</a>
       details: |
-        Responsibilities:
-          - Develop QA Processes and Procedures.
-          - Identify Bugs and Issues.
-          - Maintain QA Documentation.
-          - Manage Testing Schedules.
+        As a Quality Assurance Team Lead, I was responsible for:
+          - Designing and implementing QA processes and procedures to ensure the quality and reliability of the software products
+          - Identifying and reporting bugs and issues using Jira and Confluence
+          - Maintaining and updating the QA documentation and standards
+          - Managing and coordinating the testing schedules and activities for the QA team
 
-        Achievements:
-          - Team's workload analysis based on Jira data to find out bottlenecks
-          - Automated testing in Kubernetes(test environment for each feature branch in gitlab)
-          - Automated builds check before starting QA activities(to reduce QA effort in case branch is broken)
-          - Auto-tests on each git branch before merging features
-          - Standardise environments for manual testing
-          - Automated backup/restore Procedures for manual test environments configuration
-          - Introduced tasks prioritization rules
+        Some of my achievements include:
+          - Analyzing the team’s workload based on Jira data to find out bottlenecks and improve the efficiency and productivity of the QA team
+          - Automating testing in Kubernetes using Gitlab CI/Jenkins, which enabled testing each feature branch in gitlab in a separate test environment
+          - Automating builds check before starting QA activities, which reduced the QA effort in case of broken branches
+          - Running auto-tests on each git branch before merging features, which ensured the code quality and functionality
+          - Standardizing environments for manual testing, which facilitated the consistency and accuracy of the test results
+          - Automating backup/restore procedures for manual test environments configuration, which saved time and resources for the QA team
+          - Introducing tasks prioritization rules, which helped the QA team to focus on the most important and urgent tasks
 
-        Skills / Technologies:
+        I have extensive experience and knowledge in the following skills and technologies:
           - Jira, Confluence
           - Gitlab CI/Jenkins
           - Python, Shell/Bash
