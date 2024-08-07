@@ -16,7 +16,7 @@ sidebar:
     phone: +7 910 516 26 14
     # website: bbrattoli.github.io/publications/ #do not add http://
     linkedin: ivan-shamray-6b177628
-    github: ishamrai
+    github: tiroq
     # gitlab:
     # bitbucket:
     # twitter: '@BiagioBrattoli'
@@ -81,8 +81,30 @@ educationcomplete:
 
 
 experiences:
+    - role: Quality Assurance Champion
+      time: May 2024 - Present
+      company: <a href="https://exactpro.com/">Exactpro Systems LLC</a>
+      details: |
+        As a QA Champion, I am responsible for:
+          - Designing and implementing a test automation software project using Golang
+          - Maintaining and updating the QA documentation using Redmine
+          - Managing and coordinating the testing schedules and activities using Jira
+          - Creating and supporting the build/test pipelines
+
+        Some of my achievements include:
+          - Developing a Test tool to manage the system under test
+          - Optimizing the testing processes to reduce the resource consumption and improve the performance
+          - Creating and running functional and non-functional tests for the target hsystem
+          - Developing a non-functional testing methodology and tools to measure and analyze the quality attributes of the system such as reliability, scalability, etc.
+
+        I have extensive experience and knowledge in the following skills and technologies:
+          - Jira, Confluence
+          - Python, Shell/Bash, Golang
+          - Grafana, InfluxDB
+          - pytest, click, hvac
+          
     - role: Software Development Engineer in Test / DevOps
-      time: June 2022 - Present
+      time: June 2022 - April 2024
       company: <a href="https://www.kaspersky.com/">Kaspersky</a>
       details: |
         As a Software Development Engineer in Test / DevOps, I am responsible for:
