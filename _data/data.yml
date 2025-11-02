@@ -60,32 +60,6 @@ career-profile:
         - Led QA teams of 5-10 engineers, reached 95% test pass rate, cut manual effort by ~75%.
 
 
-education:
-    - degree: Master Degree
-      university: Obninsk Institute of Atomic Energy at National Nuclear Research University "MEPhI"
-      time: 2010 - 2012
-      details: |
-    
-    - degree: Bachelor Degree
-      university: Obninsk Institute of Atomic Energy at National Nuclear Research University "MEPhI"
-      time: 2006 - 2010
-      details: |
-
-
-educationcomplete:
-    - degree: Master Degree (Information systems and technologies)
-      university: Obninsk Institute for Nuclear Power Engineering (Obninsk, Russia)
-      time: 2010 - 2012
-      details: |
-        Master degree in information systems and technologies (Information technology)
-    
-    - degree: Bachelor Degree (Information systems and technologies)
-      university: Obninsk Institute for Nuclear Power Engineering (Obninsk, Russia)
-      time: 2006 - 2010
-      details: |
-        Bachelor degree in information systems and technologies (Information technology)
-
-
 experiences:
     - role: Software Development Engineer in Test / NFT Testing
       time: May 2024 - Present
@@ -278,6 +252,32 @@ experiences:
       #- title: Delta
         #link: "#"
         #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+
+# education:
+#     - degree: Master Degree
+#       university: Obninsk Institute of Atomic Energy at National Nuclear Research University "MEPhI"
+#       time: 2010 - 2012
+#       details: |
+    
+#     - degree: Bachelor Degree
+#       university: Obninsk Institute of Atomic Energy at National Nuclear Research University "MEPhI"
+#       time: 2006 - 2010
+#       details: |
+
+
+educationcomplete:
+    - degree: Master Degree (Information systems and technologies)
+      university: Obninsk Institute for Nuclear Power Engineering (Obninsk, Russia)
+      time: 2010 - 2012
+      details: |
+        Master degree in information systems and technologies (Information technology)
+    
+    - degree: Bachelor Degree (Information systems and technologies)
+      university: Obninsk Institute for Nuclear Power Engineering (Obninsk, Russia)
+      time: 2006 - 2010
+      details: |
+        Bachelor degree in information systems and technologies (Information technology)
 
 
 skills:
