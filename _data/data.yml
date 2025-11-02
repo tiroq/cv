@@ -48,7 +48,9 @@ career-profile:
     title: Career Profile
     summary: |
       SDET / QA Automation / DevOps (Python, Go)
+
       Experience: 11+ years | Domains: trading/exchange, banking, embedded/automotive
+      
       Summary:
         - Build and maintain test automation frameworks in Python and Go.
         - Automate QA environments and wire test results to Grafana/InfluxDB.
