@@ -62,169 +62,171 @@ career-profile:
 
 
 experiences:
-    - role: Software Development Engineer in Test / NFT Testing
-      time: May 2024 - Present
-      company: <a href="https://exactpro.com/">Exactpro Systems LLC</a>
-      details: |
-        What I did:
-          - Design and implement a test automation solutions/tooling using Golang/Python
-          - Maintain and update QA documentation in Redmine/Confluence
-          - Plan and coordinate test schedules and activities
-          - Create and support the build/test pipelines to deliver test tools
+  title: Experiences
+  info:
+  - role: Software Development Engineer in Test / NFT Testing
+    time: May 2024 - Present
+    company: <a href="https://exactpro.com/">Exactpro Systems LLC</a>
+    details: |
+      What I did:
+        - Design and implement a test automation solutions/tooling using Golang/Python
+        - Maintain and update QA documentation in Redmine/Confluence
+        - Plan and coordinate test schedules and activities
+        - Create and support the build/test pipelines to deliver test tools
+      
+      Impact:
+        - Reduced time of message preparation 5 times by parallelization and optimization of the tooling
+          - Improved system testing under stress conditions significantly
+        - Automated system setup, reducing manual effort and errors
+
+      Tech Stack: Golang, Python, Confluence, Jira, Redmine, CI/CD
         
-        Impact:
-          - Reduced time of message preparation 5 times by parallelization and optimization of the tooling
-            - Improved system testing under stress conditions significantly
-          - Automated system setup, reducing manual effort and errors
+  - role: Software Development Engineer in Test / DevOps
+    time: June 2022 - April 2024
+    company: <a href="https://www.kaspersky.com/">Kaspersky</a>
+    details: |
+      What I did:
+        - Built a Python/pytest test automation framework
+        - Maintain and update QA documentation in Confluence
+        - Plan and coordinate testing activities in Azure DevOps (TFS)
+        - Set up and maintained CI/CD build/test pipelines
+        - Create and update the test benches using various hardware components and tools such as development boards, CAN server, UDS server, and MQTT client
 
-        Tech Stack: Golang, Python, Confluence, Jira, Redmine, CI/CD
-          
-    - role: Software Development Engineer in Test / DevOps
-      time: June 2022 - April 2024
-      company: <a href="https://www.kaspersky.com/">Kaspersky</a>
-      details: |
-        What I did:
-          - Built a Python/pytest test automation framework
-          - Maintain and update QA documentation in Confluence
-          - Plan and coordinate testing activities in Azure DevOps (TFS)
-          - Set up and maintained CI/CD build/test pipelines
-          - Create and update the test benches using various hardware components and tools such as development boards, CAN server, UDS server, and MQTT client
+      Impact:
+        - Integrated Vault → secrets removed from repos, secure access in pipelines
+        - Wrote a CLI for dev boards → setup time cut from ~15-20 min to 2-3 min and parallel execution of tests(2h -> 15 min)
+        - Optimized the docker images usage to reduce the resource consumption and improve the performance
+        - Reduced build time by caching and parallelization by 30%
+        - Developed a non-functional testing methodology and tools to measure and analyze the quality attributes of the system
 
-        Impact:
-          - Integrated Vault → secrets removed from repos, secure access in pipelines
-          - Wrote a CLI for dev boards → setup time cut from ~15-20 min to 2-3 min and parallel execution of tests(2h -> 15 min)
-          - Optimized the docker images usage to reduce the resource consumption and improve the performance
-          - Reduced build time by caching and parallelization by 30%
-          - Developed a non-functional testing methodology and tools to measure and analyze the quality attributes of the system
+      Tech Stack: Azure DevOps, Confluence, Python, Bash, Golang, pytest, click, hvac, Grafana, InfluxDB, automotive, embedded.
 
-        Tech Stack: Azure DevOps, Confluence, Python, Bash, Golang, pytest, click, hvac, Grafana, InfluxDB, automotive, embedded.
+  - role: Quality Assurance Automation Engineer Senior (Python)
+    time: September 2021 - June 2022
+    company: <a href="https://www.lenovo.com/">Lenovo</a>
+    details: |
+      What I did:
+        - Built and maintained a Python/pytest-based test automation framework (with jsonschema and JWT support) for API and integration tests
+        - Logged and tracked defects in Jira with reproducible steps, payloads, and logs
+        - Kept QA documentation in Confluence aligned with actual test coverage and CI jobs
+        - Managed and monitored test runs in Bamboo/Jenkins
 
-    - role: Quality Assurance Automation Engineer Senior (Python)
-      time: September 2021 - June 2022
-      company: <a href="https://www.lenovo.com/">Lenovo</a>
-      details: |
-        What I did:
-          - Built and maintained a Python/pytest-based test automation framework (with jsonschema and JWT support) for API and integration tests
-          - Logged and tracked defects in Jira with reproducible steps, payloads, and logs
-          - Kept QA documentation in Confluence aligned with actual test coverage and CI jobs
-          - Managed and monitored test runs in Bamboo/Jenkins
+      Impact:
+        - Raised automated test pass rate to ~95% by stabilizing flaky tests, unifying fixtures, and improving environment setup
+        - Cut test execution time by 25-35% through script optimization, parametrized tests, and reuse of test data
+        - Migrated CI/CD from Bamboo to Jenkins, improving pipeline visibility and reducing build+test cycle time per change by ~20%
+        - Refactored the framework to remove duplicated code → maintenance effort for new test suites went down and onboarding became faster
+        - Reverse-engineered an internal ZeroMQ-based protocol and added a test client to the framework, which enabled deeper integration testing and increased coverage of internal services by ~30%
 
-        Impact:
-          - Raised automated test pass rate to ~95% by stabilizing flaky tests, unifying fixtures, and improving environment setup
-          - Cut test execution time by 25-35% through script optimization, parametrized tests, and reuse of test data
-          - Migrated CI/CD from Bamboo to Jenkins, improving pipeline visibility and reducing build+test cycle time per change by ~20%
-          - Refactored the framework to remove duplicated code → maintenance effort for new test suites went down and onboarding became faster
-          - Reverse-engineered an internal ZeroMQ-based protocol and added a test client to the framework, which enabled deeper integration testing and increased coverage of internal services by ~30%
+      Tech Stack: Python, pytest, jsonschema, JWT, Jenkins, Bamboo, Confluence, Jira, REST API, ZeroMQ
 
-        Tech Stack: Python, pytest, jsonschema, JWT, Jenkins, Bamboo, Confluence, Jira, REST API, ZeroMQ
+  - role: Quality Assurance Team Lead
+    time: August 2020 - September 2021
+    company: <a href="https://www.bpcbt.com/">BPC Banking Technologies, Russia, Moscow</a>
+    details: |
+      What I did:
+        - Designed and rolled out QA processes and standards to improve product quality and release stability
+        - Tracked and reported defects in Jira/Confluence with full context for developers
+        - Kept QA documentation (test plans, checklists, env setup) up to date
+        - Planned and coordinated test activities and workload for the QA team
 
-    - role: Quality Assurance Team Lead
-      time: August 2020 - September 2021
-      company: <a href="https://www.bpcbt.com/">BPC Banking Technologies, Russia, Moscow</a>
-      details: |
-        What I did:
-          - Designed and rolled out QA processes and standards to improve product quality and release stability
-          - Tracked and reported defects in Jira/Confluence with full context for developers
-          - Kept QA documentation (test plans, checklists, env setup) up to date
-          - Planned and coordinated test activities and workload for the QA team
+      Impact:
+        - Analyzed Jira workload and cycle time → identified bottlenecks in review/testing and improved team throughput by ~15-20%
+        - Automated testing in Kubernetes via GitLab CI/Jenkins → every feature branch was tested in an isolated test environment, reducing “works on my machine” issues
+        - Added build sanity checks before QA started → cut wasted QA effort on broken branches by 30-40%
+        - Enforced branch-level auto-tests before merge → defects caught earlier, regression escapes to QA/stage reduced by ~25%
+        - Standardized manual test environments → fewer environment-related defects, manual test repeatability improved to ~90%
+        - Automated backup/restore of QA env configs → recovery/setup time went from hours to minutes
+        - Introduced task prioritization rules → team focused on high-value items first, lead time for priority defects dropped
 
-        Impact:
-          - Analyzed Jira workload and cycle time → identified bottlenecks in review/testing and improved team throughput by ~15-20%
-          - Automated testing in Kubernetes via GitLab CI/Jenkins → every feature branch was tested in an isolated test environment, reducing “works on my machine” issues
-          - Added build sanity checks before QA started → cut wasted QA effort on broken branches by 30-40%
-          - Enforced branch-level auto-tests before merge → defects caught earlier, regression escapes to QA/stage reduced by ~25%
-          - Standardized manual test environments → fewer environment-related defects, manual test repeatability improved to ~90%
-          - Automated backup/restore of QA env configs → recovery/setup time went from hours to minutes
-          - Introduced task prioritization rules → team focused on high-value items first, lead time for priority defects dropped
+      Tech Stack: Jira, Confluence, Gitlab CI/Jenkins, Python, Shell/Bash, Golang, PLSQL
 
-        Tech Stack: Jira, Confluence, Gitlab CI/Jenkins, Python, Shell/Bash, Golang, PLSQL
+  - role: Quality Assurance Team Lead - Trading & Low-Latency
+    time: May 2018 - August 2020
+    company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
+    details: |
+      What I did:
+        - Automated testing for non-standard financial/trading flows (FIX, ITCH, native exchange)
+        - Built custom testing & analysis tools
+        - Reviewed specs/requirements and turned them into test cases
+        - Mentored junior testers
+        - Optimized testing processes and met tight release cycles
 
-    - role: Quality Assurance Team Lead - Trading & Low-Latency
-      time: May 2018 - August 2020
-      company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
-      details: |
-        What I did:
-          - Automated testing for non-standard financial/trading flows (FIX, ITCH, native exchange)
-          - Built custom testing & analysis tools
-          - Reviewed specs/requirements and turned them into test cases
-          - Mentored junior testers
-          - Optimized testing processes and met tight release cycles
+      Impact:
+        - Manual support of test environments reduced by 2-4x via automation (provisioning, reset, checks)
+        - Delivered PoC for big-data / time-series analysis to speed up incident and performance analysis
+        - Added InfluxDB + Grafana dashboards for test/run visibility
 
-        Impact:
-          - Manual support of test environments reduced by 2-4x via automation (provisioning, reset, checks)
-          - Delivered PoC for big-data / time-series analysis to speed up incident and performance analysis
-          - Added InfluxDB + Grafana dashboards for test/run visibility
+      Tech Stack:
+        - Python, Shell/Bash, Golang, InfluxDB, Grafana, Ansible, Jmeter
 
-        Tech Stack:
-          - Python, Shell/Bash, Golang, InfluxDB, Grafana, Ansible, Jmeter
+  - role: Senior Quality Assurance Specialist
+    time: October 2016 - May 2018
+    company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
+    details: |
+      What I did:
+        - Tested financial/trading applications (non-functional + regression)
+        - Automated non-standard trading flows (FIX, ITCH, native exchange)
+        - Performed load/performance testing and built test tools
+        - Analyzed specs and mentored junior QA specialists
 
-    - role: Senior Quality Assurance Specialist
-      time: October 2016 - May 2018
-      company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
-      details: |
-        What I did:
-          - Tested financial/trading applications (non-functional + regression)
-          - Automated non-standard trading flows (FIX, ITCH, native exchange)
-          - Performed load/performance testing and built test tools
-          - Analyzed specs and mentored junior QA specialists
+      Impact:
+        - Automated non-functional testing for 4 projects → consistent performance validation across trading systems
+        - Built automated monitoring for testing environments → reduced manual checks and faster issue detection
+        - Established data visualization with InfluxDB + Grafana → real-time test metrics and performance insights
 
-        Impact:
-          - Automated non-functional testing for 4 projects → consistent performance validation across trading systems
-          - Built automated monitoring for testing environments → reduced manual checks and faster issue detection
-          - Established data visualization with InfluxDB + Grafana → real-time test metrics and performance insights
+      Tech Stack: Python, Shell/Bash, Golang, InfluxDB, Grafana, Ansible, JMeter, FIX/ITCH protocols, MySQL, MSSQL, PLSQL, Jira, Confluence, Redmine
 
-        Tech Stack: Python, Shell/Bash, Golang, InfluxDB, Grafana, Ansible, JMeter, FIX/ITCH protocols, MySQL, MSSQL, PLSQL, Jira, Confluence, Redmine
+  - role: Quality Assurance Specialist
+    time: February 2014 - October 2016
+    company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
+    details: |
+      What I did:
+        - Designed functional/regression tests for low-latency trading systems
+        - Performed load testing for high-frequency apps
+        - Built automated testing/analysis tools
+        - Analyzed specs and reported issues
 
-    - role: Quality Assurance Specialist
-      time: February 2014 - October 2016
-      company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
-      details: |
-        What I did:
-          - Designed functional/regression tests for low-latency trading systems
-          - Performed load testing for high-frequency apps
-          - Built automated testing/analysis tools
-          - Analyzed specs and reported issues
+      Impact:
+        - Created proof-of-concept for non-functional testing automation framework → foundation for future automation initiatives
 
-        Impact:
-          - Created proof-of-concept for non-functional testing automation framework → foundation for future automation initiatives
+      Tech Stack: Python, Shell/Bash, MySQL, MSSQL, PLSQL, FIX protocol, ITCH protocol, native exchange protocols, Jira, Confluence, Redmine
 
-        Tech Stack: Python, Shell/Bash, MySQL, MSSQL, PLSQL, FIX protocol, ITCH protocol, native exchange protocols, Jira, Confluence, Redmine
+  - role: System Administrator Weblogic and Oracle Service Bus
+    time: March 2013 - February 2014
+    company: Home Credit & Finance Bank, Russia, Obninsk
+    details: |
+      What I did:
+        - Provided 24x7 support for central integrated banking system (Oracle Service Bus)
+        - Monitored system performance and analyzed metrics
+        - Resolved real-time production issues and incidents
+        - Supported and maintained test environments
+        - Created automation scripts for system administration tasks
 
-    - role: System Administrator Weblogic and Oracle Service Bus
-      time: March 2013 - February 2014
-      company: Home Credit & Finance Bank, Russia, Obninsk
-      details: |
-        What I did:
-          - Provided 24x7 support for central integrated banking system (Oracle Service Bus)
-          - Monitored system performance and analyzed metrics
-          - Resolved real-time production issues and incidents
-          - Supported and maintained test environments
-          - Created automation scripts for system administration tasks
+      Impact:
+        - Automated test environment configuration and deployment → reduced setup time and human errors
+        - Maintained 99.9% uptime for critical banking infrastructure → ensured business continuity
+        - Resolved production incidents with average response time under 15 minutes → minimized business impact
 
-        Impact:
-          - Automated test environment configuration and deployment → reduced setup time and human errors
-          - Maintained 99.9% uptime for critical banking infrastructure → ensured business continuity
-          - Resolved production incidents with average response time under 15 minutes → minimized business impact
+      Tech Stack: RHEL, WebLogic, Oracle Service Bus, Python, Jython, Shell, Apache HTTP Server, Jira, Remedy, CA Wily monitoring
 
-        Tech Stack: RHEL, WebLogic, Oracle Service Bus, Python, Jython, Shell, Apache HTTP Server, Jira, Remedy, CA Wily monitoring
+  - role: Network Engineer / System Administrator
+    time: December 2010 - March 2013
+    company: All-Russia Research Institute of Hydrometeorological Information, World Data Centre (RIHMI-WDC). Russia, Obninsk.
+    details: |
+      What I did:
+        - Created, migrated and supported VMs in VMware ESXi infrastructure
+        - Managed, configured and supported enterprise network equipment
+        - Maintained remote servers and UNIX systems (FreeBSD)
+        - Deployed and maintained web services, databases, and network services
+        - Created automation scripts for system administration tasks
 
-    - role: Network Engineer / System Administrator
-      time: December 2010 - March 2013
-      company: All-Russia Research Institute of Hydrometeorological Information, World Data Centre (RIHMI-WDC). Russia, Obninsk.
-      details: |
-        What I did:
-          - Created, migrated and supported VMs in VMware ESXi infrastructure
-          - Managed, configured and supported enterprise network equipment
-          - Maintained remote servers and UNIX systems (FreeBSD)
-          - Deployed and maintained web services, databases, and network services
-          - Created automation scripts for system administration tasks
+      Impact:
+        - Integrated comprehensive IT infrastructure monitoring system (Zabbix) → proactive issue detection and faster resolution
+        - Successfully deployed METEORF central communication infrastructure → improved meteorological data exchange
+        - Managed multi-vendor network infrastructure → ensured reliable connectivity across research facilities
 
-        Impact:
-          - Integrated comprehensive IT infrastructure monitoring system (Zabbix) → proactive issue detection and faster resolution
-          - Successfully deployed METEORF central communication infrastructure → improved meteorological data exchange
-          - Managed multi-vendor network infrastructure → ensured reliable connectivity across research facilities
-
-        Tech Stack: VMware ESXi, FreeBSD, MySQL, PostgreSQL, Apache, nginx, Python, Perl, PHP, Zabbix, D-Link, Cisco, Mikrotik, Ubiquiti network equipment
+      Tech Stack: VMware ESXi, FreeBSD, MySQL, PostgreSQL, Apache, nginx, Python, Perl, PHP, Zabbix, D-Link, Cisco, Mikrotik, Ubiquiti network equipment
 
 #projects:
     #title: Projects
