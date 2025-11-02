@@ -267,18 +267,20 @@ experiences:
 #       details: |
 
 
-educationcomplete:
-    - degree: Master Degree (Information systems and technologies)
-      university: Obninsk Institute for Nuclear Power Engineering (Obninsk, Russia)
-      time: 2010 - 2012
-      details: |
-        Master degree in information systems and technologies (Information technology)
+education:
+  title: Education
+  info:
+  - degree: Master Degree (Information systems and technologies)
+    university: Obninsk Institute for Nuclear Power Engineering (Obninsk, Russia)
+    time: 2010 - 2012
+    details: |
+      Master degree in information systems and technologies (Information technology)
     
-    - degree: Bachelor Degree (Information systems and technologies)
-      university: Obninsk Institute for Nuclear Power Engineering (Obninsk, Russia)
-      time: 2006 - 2010
-      details: |
-        Bachelor degree in information systems and technologies (Information technology)
+  - degree: Bachelor Degree (Information systems and technologies)
+    university: Obninsk Institute for Nuclear Power Engineering (Obninsk, Russia)
+    time: 2006 - 2010
+    details: |
+      Bachelor degree in information systems and technologies (Information technology)
 
 
 skills:
