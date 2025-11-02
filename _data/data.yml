@@ -285,8 +285,17 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python, Go, Bash/Shell, SQL/PLSQL
-#     #     level: 90%
+      - name: Python
+        level: 90%
+
+      - name: Go
+        level: 80%
+
+      - name: Bash/Shell
+        level: 85%
+
+      - name: SQL/PLSQL
+        level: 70%
 
 #     #   - name: PyTorch
 #     #     level: 90%
