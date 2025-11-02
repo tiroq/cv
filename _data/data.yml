@@ -186,12 +186,10 @@ experiences:
       company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
       details: |
         What I did:
-          - Developed functional and regression test scenarios, test cases, and scripts for financial applications
-          - Built test automation for non-standard trading flows (FIX, ITCH, native exchange protocols)
-          - Conducted load testing and performance analysis
-          - Created automated testing and analysis tools
-          - Analyzed technical documentation and requirements
-          - Mentored junior team members
+          - Tested financial/trading applications (non-functional + regression)
+          - Automated non-standard trading flows (FIX, ITCH, native exchange)
+          - Performed load/performance testing and built test tools
+          - Analyzed specs and mentored junior QA specialists
 
         Impact:
           - Automated non-functional testing for 4 projects → consistent performance validation across trading systems
@@ -205,12 +203,10 @@ experiences:
       company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
       details: |
         What I did:
-          - Developed functional and regression test scenarios, test cases, and scripts for low-latency trading systems
-          - Conducted load testing for high-frequency trading applications
-          - Built automated testing and analysis tools
-          - Analyzed technical documentation and requirements
-          - Validated applications and environment stability
-          - Investigated and reported identified problems
+          - Designed functional/regression tests for low-latency trading systems
+          - Performed load testing for high-frequency apps
+          - Built automated testing/analysis tools
+          - Analyzed specs and reported issues
 
         Impact:
           - Created proof-of-concept for non-functional testing automation framework → foundation for future automation initiatives
