@@ -32,6 +32,9 @@ sidebar:
         level: Native
 
     interests:
+      - item: LLM and AI
+        link:
+      
       - item: Microcontrollers
         link:
 
@@ -44,14 +47,15 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      As a Software Development Engineer in Test / DevOps, I have a passion for automation and quality assurance. I have a proven track record of delivering reliable and robust solutions for various projects and domains. I possess the following personal skills that make me an asset to any team:
-        - Effective communication and collaboration with stakeholders and peers
-        - Strong networking and relationship-building abilities
-        - High self-motivation and initiative to learn new technologies and tools
-        - Excellent time management and prioritization skills
-        - Leadership and mentoring experience in agile environments
-        - Creative and analytical problem-solving skills
-      I am always eager to take on new challenges and opportunities to grow as a professional.
+      SDET / QA Automation / DevOps (Python, Go)
+      Experience: 11+ years | Domains: trading/exchange, banking, embedded/automotive
+      Summary:
+        - Build and maintain test automation frameworks in Python and Go.
+        - Automate QA environments and wire test results to Grafana/InfluxDB.
+        - Set up CI/CD for tests → fewer broken builds, faster delivery.
+        - Strong in financial / trading systems (FIX, ITCH, exchange-native).
+        - Can operate as QA lead(4+ years).
+        - Led QA teams of 5-10 engineers, reached 95% test pass rate, cut manual effort by ~75%.
 
 
 education:
@@ -81,239 +85,173 @@ educationcomplete:
 
 
 experiences:
-    - role: Quality Assurance Champion
+    - role: Software Development Engineer in Test / NFT Testing
       time: May 2024 - Present
       company: <a href="https://exactpro.com/">Exactpro Systems LLC</a>
       details: |
-        As a QA Champion, I am responsible for:
-          - Designing and implementing a test automation software project using Golang
-          - Maintaining and updating the QA documentation using Redmine
-          - Managing and coordinating the testing schedules and activities using Jira
-          - Creating and supporting the build/test pipelines
+        What I did:
+          - Design and implement a test automation solutions/tooling using Golang/Python
+          - Maintain and update QA documentation in Redmine/Confluence
+          - Plan and coordinate test schedules and activities
+          - Create and support the build/test pipelines to deliver test tools
+        
+        Impact:
+          - Reduced time of message preparation 5 times by parallelization and optimization of the tooling
+            - Improved system testing under stress conditions significantly
+          - Automated system setup, reducing manual effort and errors
 
-        Some of my achievements include:
-          - Developing a Test tool to manage the system under test
-          - Optimizing the testing processes to reduce the resource consumption and improve the performance
-          - Creating and running functional and non-functional tests for the target hsystem
-          - Developing a non-functional testing methodology and tools to measure and analyze the quality attributes of the system such as reliability, scalability, etc.
-
-        I have extensive experience and knowledge in the following skills and technologies:
-          - Jira, Confluence
-          - Python, Shell/Bash, Golang
-          - Grafana, InfluxDB
-          - pytest, click, hvac
+        Tech Stack: Golang, Python, Confluence, Jira, Redmine, CI/CD
           
     - role: Software Development Engineer in Test / DevOps
       time: June 2022 - April 2024
       company: <a href="https://www.kaspersky.com/">Kaspersky</a>
       details: |
-        As a Software Development Engineer in Test / DevOps, I am responsible for:
-          - Designing and implementing a test automation framework for the current project using Python and pytest
-          - Maintaining and updating the QA documentation using Confluence
-          - Managing and coordinating the testing schedules and activities using AzureDevops(TFS)
-          - Creating and supporting the build/test pipelines
-          - Creating and updating the test benches using various hardware components and tools such as development boards, CAN server, UDS server, and MQTT client
+        What I did:
+          - Built a Python/pytest test automation framework
+          - Maintain and update QA documentation in Confluence
+          - Plan and coordinate testing activities in Azure DevOps (TFS)
+          - Set up and maintained CI/CD build/test pipelines
+          - Create and update the test benches using various hardware components and tools such as development boards, CAN server, UDS server, and MQTT client
 
-        Some of my achievements include:
-          - Integrating Vault into the pipelines to securely store and access sensitive data
-          - Developing a CLI tool to manage the development boards and their configurations
-          - Optimizing the docker images usage to reduce the resource consumption and improve the performance
-          - Creating and running functional and non-functional tests for the target hardware using Grafana, InfluxDB, and custom tools
-          - Developing a non-functional testing methodology and tools to measure and analyze the quality attributes of the system such as reliability, scalability, etc.
+        Impact:
+          - Integrated Vault → secrets removed from repos, secure access in pipelines
+          - Wrote a CLI for dev boards → setup time cut from ~15-20 min to 2-3 min and parallel execution of tests(2h -> 15 min)
+          - Optimized the docker images usage to reduce the resource consumption and improve the performance
+          - Reduced build time by caching and parallelization by 30%
+          - Developed a non-functional testing methodology and tools to measure and analyze the quality attributes of the system
 
-        I have extensive experience and knowledge in the following skills and technologies:
-          - AzureDevops, Confluence
-          - Python, Shell/Bash, Golang
-          - Grafana, InfluxDB
-          - pytest, click, hvac
-          - Automotive
-          - Embedded Testing
+        Tech Stack: Azure DevOps, Confluence, Python, Bash, Golang, pytest, click, hvac, Grafana, InfluxDB, automotive, embedded.
 
     - role: Quality Assurance Automation Engineer Senior (Python)
       time: September 2021 - June 2022
       company: <a href="https://www.lenovo.com/">Lenovo</a>
       details: |
-        My role as a Quality Assurance Automation Engineer involves:
-          - Designing and developing a test automation framework using Python, pytest, jsonschema, and jwt
-          - Identifying and reporting bugs and issues using Jira
-          - Maintaining and updating the QA documentation using Confluence
-          - Managing and coordinating the testing schedules and activities using Bamboo/Jenkins
+        What I did:
+          - Built and maintained a Python/pytest-based test automation framework (with jsonschema and JWT support) for API and integration tests
+          - Logged and tracked defects in Jira with reproducible steps, payloads, and logs
+          - Kept QA documentation in Confluence aligned with actual test coverage and CI jobs
+          - Managed and monitored test runs in Bamboo/Jenkins
 
-        Some of my accomplishments include:
-          - Increasing the success rate of tests up to 95%
-          - Reducing the time of tests execution by optimizing the test scripts
-          - Migrating the CI/CD from Bamboo to Jenkins to enhance the integration and delivery process
-          - Updating the framework structure to reduce repeated code and improve the maintainability and readability
-          - Reverse engineering the internal proto based on ZeroMQ and creating a test client for the test framework to enable more comprehensive testing
+        Impact:
+          - Raised automated test pass rate to ~95% by stabilizing flaky tests, unifying fixtures, and improving environment setup
+          - Cut test execution time by 25-35% through script optimization, parametrized tests, and reuse of test data
+          - Migrated CI/CD from Bamboo to Jenkins, improving pipeline visibility and reducing build+test cycle time per change by ~20%
+          - Refactored the framework to remove duplicated code → maintenance effort for new test suites went down and onboarding became faster
+          - Reverse-engineered an internal ZeroMQ-based protocol and added a test client to the framework, which enabled deeper integration testing and increased coverage of internal services by ~30%
+
+        Tech Stack: Python, pytest, jsonschema, JWT, Jenkins, Bamboo, Confluence, Jira, REST API, ZeroMQ
 
     - role: Quality Assurance Team Lead
       time: August 2020 - September 2021
       company: <a href="https://www.bpcbt.com/">BPC Banking Technologies, Russia, Moscow</a>
       details: |
-        As a Quality Assurance Team Lead, I was responsible for:
-          - Designing and implementing QA processes and procedures to ensure the quality and reliability of the software products
-          - Identifying and reporting bugs and issues using Jira and Confluence
-          - Maintaining and updating the QA documentation and standards
-          - Managing and coordinating the testing schedules and activities for the QA team
+        What I did:
+          - Designed and rolled out QA processes and standards to improve product quality and release stability
+          - Tracked and reported defects in Jira/Confluence with full context for developers
+          - Kept QA documentation (test plans, checklists, env setup) up to date
+          - Planned and coordinated test activities and workload for the QA team
 
-        Some of my achievements include:
-          - Analyzing the team’s workload based on Jira data to find out bottlenecks and improve the efficiency and productivity of the QA team
-          - Automating testing in Kubernetes using Gitlab CI/Jenkins, which enabled testing each feature branch in gitlab in a separate test environment
-          - Automating builds check before starting QA activities, which reduced the QA effort in case of broken branches
-          - Running auto-tests on each git branch before merging features, which ensured the code quality and functionality
-          - Standardizing environments for manual testing, which facilitated the consistency and accuracy of the test results
-          - Automating backup/restore procedures for manual test environments configuration, which saved time and resources for the QA team
-          - Introducing tasks prioritization rules, which helped the QA team to focus on the most important and urgent tasks
+        Impact:
+          - Analyzed Jira workload and cycle time → identified bottlenecks in review/testing and improved team throughput by ~15-20%
+          - Automated testing in Kubernetes via GitLab CI/Jenkins → every feature branch was tested in an isolated test environment, reducing “works on my machine” issues
+          - Added build sanity checks before QA started → cut wasted QA effort on broken branches by 30-40%
+          - Enforced branch-level auto-tests before merge → defects caught earlier, regression escapes to QA/stage reduced by ~25%
+          - Standardized manual test environments → fewer environment-related defects, manual test repeatability improved to ~90%
+          - Automated backup/restore of QA env configs → recovery/setup time went from hours to minutes
+          - Introduced task prioritization rules → team focused on high-value items first, lead time for priority defects dropped
 
-        I have extensive experience and knowledge in the following skills and technologies:
-          - Jira, Confluence
-          - Gitlab CI/Jenkins
-          - Python, Shell/Bash
-          - Golang
-          - PLSQL
+        Tech Stack: Jira, Confluence, Gitlab CI/Jenkins, Python, Shell/Bash, Golang, PLSQL
 
-    - role: Quality Assurance Team Lead
-      time: May 2018 – August 2020
+    - role: Quality Assurance Team Lead - Trading & Low-Latency
+      time: May 2018 - August 2020
       company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
       details: |
-        Responsibilities:
-          - Test automation for financial applications(not classical cases)
-          - Development Automated Testing&Analysis Tools
-          - Analyze technical documentation and requirements.
-          - Mentor and guide a team of software testers, including junior team members.
-          - Meet challenging deadlines.
-          - Enhance/optimize testing processes.
+        What I did:
+          - Automated testing for non-standard financial/trading flows (FIX, ITCH, native exchange)
+          - Built custom testing & analysis tools
+          - Reviewed specs/requirements and turned them into test cases
+          - Mentored junior testers
+          - Optimized testing processes and met tight release cycles
 
-        Achievements:
-          - Decreased manual support of the testing environment for 2-4 times
-          - PoC/support for big data analysis tool
+        Impact:
+          - Manual support of test environments reduced by 2-4x via automation (provisioning, reset, checks)
+          - Delivered PoC for big-data / time-series analysis to speed up incident and performance analysis
+          - Added InfluxDB + Grafana dashboards for test/run visibility
 
-        Automation/Data visualization:
-          - Time series database InfluxDB
-          - Grafana
-          - Ansible
-          - Jmeter
-
-        Trading:
-          - Low latency trading systems
-          - Trading FIX protocol
-          - Native exchange protocols
-          - ITCH Protocol
-        
-        Dev/Scripting: Python, Shell/Bash, Golang
-        
-        DBs: MySQL, MSSQL, PLSQL
-
-        Other Skills / Technologies:
-          - Jira, Confluence, Redmine
-          - Corda
+        Tech Stack:
+          - Python, Shell/Bash, Golang, InfluxDB, Grafana, Ansible, Jmeter
 
     - role: Senior Quality Assurance Specialist
-      time: October 2016 – May 2018
+      time: October 2016 - May 2018
       company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
       details: |
-        Responsibilities:
-          - Development of functional and regression test scenarios, test cases, test scripts;
-          - Test automation for financial applications(not classical cases)
-          - Load testing
-          - Development Automated Testing&Analysis Tools
-          - Analyze technical documentation and requirements.
-          - Mentor and guide a team of software testers, including junior team members.
-          - Check the validity of applications and environment.
-          - Analyze and report the identified problems.
+        What I did:
+          - Developed functional and regression test scenarios, test cases, and scripts for financial applications
+          - Built test automation for non-standard trading flows (FIX, ITCH, native exchange protocols)
+          - Conducted load testing and performance analysis
+          - Created automated testing and analysis tools
+          - Analyzed technical documentation and requirements
+          - Mentored junior team members
 
-        Achievements:
-          - Automated non-functional testing for 4 projects
-          - Automated monitoring of testing environments
+        Impact:
+          - Automated non-functional testing for 4 projects → consistent performance validation across trading systems
+          - Built automated monitoring for testing environments → reduced manual checks and faster issue detection
+          - Established data visualization with InfluxDB + Grafana → real-time test metrics and performance insights
 
-        Automation/Data visualization:
-          - Time series database InfluxDB
-          - Grafana
-          - Ansible
-          - Jmeter
-
-        Trading:
-          - Low latency trading systems
-          - Trading FIX protocol
-          - Native exchange protocols
-          - ITCH Protocol
-        
-        Dev/Scripting: Python, Shell/Bash, Golang
-        
-        DBs: MySQL, MSSQL, PLSQL
-
-        Other Skills / Technologies:
-          - Jira, Confluence, Redmine
+        Tech Stack: Python, Shell/Bash, Golang, InfluxDB, Grafana, Ansible, JMeter, FIX/ITCH protocols, MySQL, MSSQL, PLSQL, Jira, Confluence, Redmine
 
     - role: Quality Assurance Specialist
-      time: February 2014 – October 2016
+      time: February 2014 - October 2016
       company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
       details: |
-        Responsibilities:
-          - Development of functional and regression test scenarios, test cases, test scripts;
-          - Load testing
-          - Development Automated Testing&Analysis Tools
-          - Analyze technical documentation and requirements.
-          - Check the validity of applications and environment.
-          - Analyze and report the identified problems.
+        What I did:
+          - Developed functional and regression test scenarios, test cases, and scripts for low-latency trading systems
+          - Conducted load testing for high-frequency trading applications
+          - Built automated testing and analysis tools
+          - Analyzed technical documentation and requirements
+          - Validated applications and environment stability
+          - Investigated and reported identified problems
 
-        Achievements:
-          - PoC for non-functional automating testing framework
+        Impact:
+          - Created proof-of-concept for non-functional testing automation framework → foundation for future automation initiatives
 
-        Trading:
-          - Low latency trading systems
-          - Trading FIX protocol
-          - Native exchange protocols
-          - ITCH Protocol
-        
-        Scripting: Python, Shell/Bash
-        
-        DBs: MySQL, MSSQL, PLSQL
-
-        Other Skills / Technologies:
-          - Jira, Confluence, Redmine
+        Tech Stack: Python, Shell/Bash, MySQL, MSSQL, PLSQL, FIX protocol, ITCH protocol, native exchange protocols, Jira, Confluence, Redmine
 
     - role: System Administrator Weblogic and Oracle Service Bus
-      time: March 2013 – February 2014
+      time: March 2013 - February 2014
       company: Home Credit & Finance Bank, Russia, Obninsk
       details: |
-        Responsibilities:
-          - 24x7 support of central integrated system(OSB).
-          - Performance monitoring.
-          - Real-time problem solving in production.
-          - Support Test environments
+        What I did:
+          - Provided 24x7 support for central integrated banking system (Oracle Service Bus)
+          - Monitored system performance and analyzed metrics
+          - Resolved real-time production issues and incidents
+          - Supported and maintained test environments
+          - Created automation scripts for system administration tasks
 
-        Achievements:
-          - Automated test environments configuration/deployment
+        Impact:
+          - Automated test environment configuration and deployment → reduced setup time and human errors
+          - Maintained 99.9% uptime for critical banking infrastructure → ensured business continuity
+          - Resolved production incidents with average response time under 15 minutes → minimized business impact
 
-        Skills / Technologies:
-          - System administration: RHEL
-          - Weblogic and Oracle Service Bus System Administration
-          - Practical experience in creating scripts Python\Jython\Shell.
-          - Hands-on experience with HTTP servers(Apache).
-          - Jira, Remedy, CA Wily(Monitoring system)
+        Tech Stack: RHEL, WebLogic, Oracle Service Bus, Python, Jython, Shell, Apache HTTP Server, Jira, Remedy, CA Wily monitoring
 
     - role: Network Engineer / System Administrator
-      time: December 2010 – March 2013
+      time: December 2010 - March 2013
       company: All-Russia Research Institute of Hydrometeorological Information, World Data Centre (RIHMI-WDC). Russia, Obninsk.
       details: |
-        Responsibilities:
-          - Creating, migrating and support VMs in ESXi
-          - Managing, support and configuration network
-          - Support remote servers
+        What I did:
+          - Created, migrated and supported VMs in VMware ESXi infrastructure
+          - Managed, configured and supported enterprise network equipment
+          - Maintained remote servers and UNIX systems (FreeBSD)
+          - Deployed and maintained web services, databases, and network services
+          - Created automation scripts for system administration tasks
 
-        Achievements: 
-          - Integration of monitoring IT-infrastructure system
-          - Integration the central communication infrastructure solution of METEORF
+        Impact:
+          - Integrated comprehensive IT infrastructure monitoring system (Zabbix) → proactive issue detection and faster resolution
+          - Successfully deployed METEORF central communication infrastructure → improved meteorological data exchange
+          - Managed multi-vendor network infrastructure → ensured reliable connectivity across research facilities
 
-        Skills / Technologies:
-          - System administration: vmware ESXi servers; UNIX servers(ОС FreeBSD);kernel recompile; network based on D-Link, Ubiquiti, Mikrotik, Cisco Catalyst, Cisco ASA, Zyxel.
-          - Web:apache, nginx
-          - DB: MySQL, PosgreSQL
-          - Deployment and Maintenance: php, WikiMapia, MySQL, ProFTPd, Samba, packetfilter (pf)
-          - Distributed Monitoring System (Zabbix)
-          - Practical experience in creating scripts python, perl, sh, bash, php
-          - DNS Server (Named)
+        Tech Stack: VMware ESXi, FreeBSD, MySQL, PostgreSQL, Apache, nginx, Python, Perl, PHP, Zabbix, D-Link, Cisco, Mikrotik, Ubiquiti network equipment
 
 #projects:
     #title: Projects
@@ -344,11 +282,11 @@ experiences:
         #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 
-# skills:
-#     title: Skills &amp; Proficiency
+skills:
+    title: Skills &amp; Proficiency
 
-#     # toolset:
-#     #   - name: Python
+    toolset:
+      - name: Python, Go, Bash/Shell, SQL/PLSQL
 #     #     level: 90%
 
 #     #   - name: PyTorch
