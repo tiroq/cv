@@ -122,7 +122,7 @@ experiences:
 
   - role: Quality Assurance Team Lead
     time: August 2020 - September 2021
-    company: <a href="https://www.bpcbt.com/">BPC Banking Technologies, Russia, Moscow</a>
+    company: <a href="https://www.bpcbt.com/">BPC Banking Technologies</a>
     details: |
       What I did:
         - Designed and rolled out QA processes and standards to improve product quality and release stability
@@ -143,7 +143,7 @@ experiences:
 
   - role: Quality Assurance Team Lead - Trading & Low-Latency
     time: May 2018 - August 2020
-    company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
+    company: <a href="exactpro.com">Exactpro</a>
     details: |
       What I did:
         - Automated testing for non-standard financial/trading flows (FIX, ITCH, native exchange)
@@ -162,7 +162,7 @@ experiences:
 
   - role: Senior Quality Assurance Specialist
     time: October 2016 - May 2018
-    company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
+    company: <a href="exactpro.com">Exactpro</a>
     details: |
       What I did:
         - Tested financial/trading applications (non-functional + regression)
@@ -179,7 +179,7 @@ experiences:
 
   - role: Quality Assurance Specialist
     time: February 2014 - October 2016
-    company: <a href="exactpro.com">Exactpro, Russia, Obninsk</a>
+    company: <a href="exactpro.com">Exactpro</a>
     details: |
       What I did:
         - Designed functional/regression tests for low-latency trading systems
@@ -194,7 +194,7 @@ experiences:
 
   - role: System Administrator Weblogic and Oracle Service Bus
     time: March 2013 - February 2014
-    company: Home Credit & Finance Bank, Russia, Obninsk
+    company: Home Credit & Finance Bank
     details: |
       What I did:
         - Provided 24x7 support for central integrated banking system (Oracle Service Bus)
@@ -273,13 +273,13 @@ education:
   title: Education
   info:
   - degree: Master Degree (Information systems and technologies)
-    university: Obninsk Institute for Nuclear Power Engineering (Obninsk, Russia)
+    university: Obninsk Institute for Nuclear Power Engineering
     time: 2010 - 2012
     details: |
       Master degree in information systems and technologies (Information technology)
     
   - degree: Bachelor Degree (Information systems and technologies)
-    university: Obninsk Institute for Nuclear Power Engineering (Obninsk, Russia)
+    university: Obninsk Institute for Nuclear Power Engineering
     time: 2006 - 2010
     details: |
       Bachelor degree in information systems and technologies (Information technology)
