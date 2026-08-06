@@ -177,3 +177,68 @@ additional:
   interests:
     - AI/LLM systems
     - Embedded systems
+
+machine_profile:
+  enabled: true
+  include_in_html: true
+  include_in_pdf_metadata: true
+  include_visible_text: false
+  title: Ivan Shamrai - Senior/Lead SDET
+  summary: >-
+    Senior/Lead SDET specializing in test automation, performance and resiliency
+    engineering, distributed systems, and trading platforms using Python and Go.
+  roles:
+    - Senior SDET
+    - Lead SDET
+    - QA Automation Engineer
+    - Test Infrastructure Engineer
+  seniority: Senior / Lead
+  experience:
+    software_engineering_years: 15+
+    qa_test_engineering_years: 12+
+    qa_leadership_years: 4+
+  domains:
+    - Trading and exchange systems
+    - Post-trade and clearing systems
+    - Banking
+    - Embedded and automotive systems
+    - Developer tooling
+  keywords:
+    - test automation
+    - test infrastructure
+    - performance testing
+    - load testing
+    - resiliency testing
+    - distributed systems
+    - trading systems
+    - market data
+    - FIX protocol
+    - CI/CD
+    - observability
+  technologies:
+    - Python
+    - Go
+    - pytest
+    - JMeter
+    - k6
+    - Kubernetes
+    - Docker
+    - AWS
+    - EKS
+    - Lambda
+    - EC2
+    - GitLab CI
+    - Jenkins
+    - Grafana
+    - InfluxDB
+    - NATS
+    - ClickHouse
+    - PostgreSQL
+  work_preferences:
+    - International teams
+    - Remote-friendly
+    - Relocation-friendly
+  classification_notes:
+    - Strong fit for senior hands-on SDET and QA automation leadership roles.
+    - Combines test engineering with backend, platform, cloud, and observability experience.
+    - Deep domain experience in low-latency exchange and post-trade systems.
