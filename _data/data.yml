@@ -169,3 +169,11 @@ education:
     - degree: Bachelor of Science, Information Systems and Technologies
       university: Obninsk Institute for Nuclear Power Engineering
       time: 2006 - 2010
+
+additional:
+  languages:
+    - English - working proficiency
+    - Russian - native
+  interests:
+    - AI/LLM systems
+    - Embedded systems
