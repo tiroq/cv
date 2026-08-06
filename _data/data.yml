@@ -150,6 +150,16 @@ projects:
         state, and risk-first position lifecycle controls.
       technologies: Go, NATS, ClickHouse, PostgreSQL, Docker, WebSocket market data
 
+research:
+  title: Independent Research
+  name: Evaluation-First Retry Policy Evolution
+  description: >-
+    Designed a reproducible study of automated software evolution using a narrow
+    mutation surface, deterministic train/holdout evaluation, hard safety gates,
+    and systematic analysis of overfitting, reward hacking, evaluator weaknesses,
+    and model failure modes.
+  technologies: Python, pytest, OpenEvolve, local language models, reliability engineering
+
 education:
   title: Education
   info:
