@@ -1,65 +1,23 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+profile:
+  name: Ivan Shamrai
+  headline: Senior/Lead SDET | Test Automation | Python & Go | Distributed Systems
+  email: isshamray@gmail.com
+  linkedin: ivan-shamray-6b177628
+  github: tiroq
 
-sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-
-    # Profile information
-    name: Ivan Shamrai
-    tagline: SDET | QA Automation | Lead
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-    # Sidebar links
-    email: isshamray@gmail.com
-    mobile: +7 910 516 26 14
-    phone: +66 094 208 86 62
-    # website: bbrattoli.github.io/publications/ #do not add http://
-    linkedin: ivan-shamray-6b177628
-    github: tiroq
-    # gitlab:
-    # bitbucket:
-    # twitter: '@BiagioBrattoli'
-    # stack-overflow: # Number/Username, e.g. 123456/alandoe
-    # codewars:
-    # goodreads: # Number-Username, e.g. 123456-alandoe
-
-    languages:
-      - idiom: English
-        level: Intermediate
-
-      - idiom: Russian
-        level: Native
-
-    interests:
-      - item: LLM and AI
-        link:
-      
-      - item: Microcontrollers
-        link:
-
-      - item: Wireless Networks
-        link:
-
-      - item: Home Automation
-        link:
-
-career-profile:
-    title: Career Profile
-    summary: |
-      SDET / QA Automation / Lead (Python, Go)
-
-      Experience: 11+ years | Domains: trading/exchange, banking, embedded/automotive
-      
-      Summary:
-        - Build and maintain test automation frameworks in Python and Go.
-        - Automate QA environments and wire test results to Grafana/InfluxDB.
-        - Set up CI/CD for tests → fewer broken builds, faster delivery.
-        - Strong in financial / trading systems (FIX, ITCH, exchange-native).
-        - Can operate as QA lead(4+ years).
-        - Led QA teams of 5-10 engineers, reached 95% test pass rate, cut manual effort by ~75%.
-
+career_profile:
+  title: Profile
+  summary: >-
+    Senior/Lead SDET with 15+ years in software engineering, infrastructure,
+    and QA automation, including 12+ years in test engineering. Builds
+    high-throughput test platforms, performance and resiliency pipelines, and
+    developer tooling in Python and Go for trading, banking, embedded, and
+    distributed systems. Combines hands-on engineering with 4+ years of QA
+    leadership, including teams of 5-10 engineers.
+  highlights:
+    - 300K messages/sec load generation
+    - Message preparation optimized from 146 us to 6 us
+    - 500 GB production trading-data analysis
 
 experiences:
   title: Experiences
