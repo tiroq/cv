@@ -19,6 +19,20 @@ career_profile:
     - Message preparation optimized from 146 us to 6 us
     - 500 GB production trading-data analysis
 
+skills:
+  title: Core Competencies
+  groups:
+    - name: Languages
+      items: Python, Go, Bash/Shell, SQL/PLSQL
+    - name: Test Engineering
+      items: pytest, JMeter, k6, API and integration testing, load and performance testing, resiliency testing
+    - name: Trading Systems
+      items: FIX, ITCH, exchange-native protocols, market data, post-trade and clearing workflows
+    - name: Cloud and Delivery
+      items: Kubernetes, Docker, AWS (EKS, Lambda, EC2), GitLab CI, Jenkins, Azure DevOps
+    - name: Data and Observability
+      items: PostgreSQL, MySQL, MSSQL, ClickHouse, InfluxDB, Grafana, NATS, ZeroMQ
+
 experiences:
   title: Experiences
   info:
