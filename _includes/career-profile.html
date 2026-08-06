@@ -1,18 +1,8 @@
-{% assign career-profile = site.data.data.career-profile %}
-{% if career-profile %}
-<section class="section summary-section">
-
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ career-profile.title }}
-  </h2>
-
-  <div class="summary">
-    {{ career-profile.summary | markdownify }}
-  </div><!--//summary-->
-    
-</section><!--//section-->
-{% endif %}
+{% assign career = site.data.data.career_profile %}
+<section class="resume-section profile-section" aria-labelledby="profile-title">
+  <h2 id="profile-title">{{ career.title }}</h2>
+  <p class="profile-copy">{{ career.summary }}</p>
+  <ul class="impact-strip" aria-label="Selected impact">
+    {% for highlight in career.highlights %}<li>{{ highlight }}</li>{% endfor %}
+  </ul>
+</section>
