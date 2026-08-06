@@ -1,11 +1,12 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: Ivan Shamrai CV
+title: Ivan Shamrai - Senior/Lead SDET
+description: Senior/Lead SDET specializing in test automation, performance engineering, distributed systems, Python, and Go.
 url: '' #'http://webjeda.com'
 baseurl: '/cv' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: ceramic # blue turquoise green berry orange ceramic
+theme_skin: ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 analytics: G-LYRZM6MY6G
