@@ -1,0 +1,11 @@
+{% assign machine = site.data.data.machine_profile %}
+{% if machine.enabled and machine.include_visible_text %}
+<section class="resume-section machine-profile" aria-labelledby="machine-profile-title">
+  <h2 id="machine-profile-title">Machine-Readable Profile</h2>
+  <p>{{ machine.summary }}</p>
+  <p><strong>Target roles:</strong> {{ machine.roles | join: ', ' }}</p>
+  <p><strong>Keywords:</strong> {{ machine.keywords | join: ', ' }}</p>
+  <p><strong>Technologies:</strong> {{ machine.technologies | join: ', ' }}</p>
+</section>
+{% endif %}
+
