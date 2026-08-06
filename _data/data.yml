@@ -123,6 +123,32 @@ experiences:
         - Supported banking middleware and research infrastructure across Linux/Unix, WebLogic/OSB, VMware, networks, databases, monitoring, and automation.
       technologies: RHEL, FreeBSD, WebLogic, Oracle Service Bus, VMware ESXi, Python, Jython, Zabbix
 
+projects:
+  title: Selected Projects
+  assignments:
+    - title: mdify
+      subtitle: Document-to-Markdown CLI
+      description: >-
+        Built and maintains a cross-platform Python CLI that converts documents
+        and images to Markdown through containerized processing, runtime
+        auto-detection, broad format support, and automated tests.
+      technologies: Python, CLI design, Docker, Podman, document processing, pytest
+
+    - title: mnemofy
+      subtitle: Local Speech and Meeting-Notes Pipeline
+      description: >-
+        Built a Python CLI for local speech transcription and structured
+        meeting-note generation with timestamps, topics, decisions, action
+        items, and optional local or API-based language-model processing.
+      technologies: Python, faster-whisper, ffmpeg, Ollama, OpenAI API, structured text generation
+
+    - title: Aequitas
+      subtitle: Event-Driven Market-Neutral Trading Platform
+      description: >-
+        Designed a Go-based platform with separated market-data, strategy, and
+        execution services, event streaming, time-series storage, persistent
+        state, and risk-first position lifecycle controls.
+      technologies: Go, NATS, ClickHouse, PostgreSQL, Docker, WebSocket market data
 
 education:
   title: Education
