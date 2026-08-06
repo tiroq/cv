@@ -81,154 +81,47 @@ experiences:
           - Validates AWS infrastructure spanning EKS, Lambda, databases, and EC2.
         technologies: k6, FIX, AWS, EKS, Lambda, EC2, resiliency testing
 
+  history:
+    - role: Software Development Engineer in Test / DevOps
+      time: Jun 2022 - Apr 2024
+      company: Kaspersky
+      highlights:
+        - Built a Python/pytest automation framework and maintained hardware-in-the-loop test benches for automotive and embedded systems.
+        - Created a development-board CLI that cut setup from 15-20 minutes to 2-3 minutes and parallel test execution from 2 hours to 15 minutes.
+        - Integrated Vault-managed secrets and optimized CI images, caching, and parallelization to reduce build time by 30%.
+      technologies: Python, Go, pytest, Azure DevOps, Vault, Docker, Grafana, InfluxDB, CAN, UDS, MQTT
 
-  - role: Quality Assurance Team Lead
-    time: August 2020 - September 2021
-    company: <a href="https://www.bpcbt.com/">BPC Banking Technologies</a>
-    details: |
-      What I did:
-        - Designed and rolled out QA processes and standards to improve product quality and release stability
-        - Tracked and reported defects in Jira/Confluence with full context for developers
-        - Kept QA documentation (test plans, checklists, env setup) up to date
-        - Planned and coordinated test activities and workload for the QA team
+    - role: Senior QA Automation Engineer
+      time: Sep 2021 - Jun 2022
+      company: Lenovo
+      highlights:
+        - Stabilized a Python/pytest API and integration framework, raising automated pass rate to about 95% and cutting execution time by 25-35%.
+        - Migrated CI/CD from Bamboo to Jenkins and reverse-engineered a ZeroMQ protocol to expand internal-service coverage by about 30%.
+      technologies: Python, pytest, REST API, ZeroMQ, Jenkins, Bamboo, JWT, JSON Schema
 
-      Impact:
-        - Analyzed Jira workload and cycle time → identified bottlenecks in review/testing and improved team throughput by ~15-20%
-        - Automated testing in Kubernetes via GitLab CI/Jenkins → every feature branch was tested in an isolated test environment, reducing “works on my machine” issues
-        - Added build sanity checks before QA started → cut wasted QA effort on broken branches by 30-40%
-        - Enforced branch-level auto-tests before merge → defects caught earlier, regression escapes to QA/stage reduced by ~25%
-        - Standardized manual test environments → fewer environment-related defects, manual test repeatability improved to ~90%
-        - Automated backup/restore of QA env configs → recovery/setup time went from hours to minutes
-        - Introduced task prioritization rules → team focused on high-value items first, lead time for priority defects dropped
+    - role: Quality Assurance Team Lead
+      time: Aug 2020 - Sep 2021
+      company: BPC Banking Technologies
+      highlights:
+        - Led QA process and delivery improvements, increasing team throughput by about 15-20% through workload and cycle-time analysis.
+        - Automated isolated Kubernetes test environments and branch-level CI checks, reducing wasted QA effort on broken builds by 30-40%.
+      technologies: Python, Go, Kubernetes, GitLab CI, Jenkins, Jira, Confluence, PLSQL
 
-      Tech Stack: Jira, Confluence, Gitlab CI/Jenkins, Python, Shell/Bash, Golang, PLSQL
+    - role: QA Specialist to QA Team Lead
+      time: Feb 2014 - Aug 2020
+      company: Exactpro
+      highlights:
+        - Progressed through three roles while testing low-latency exchange systems and automating FIX, ITCH, and native-protocol workflows.
+        - Built load, analysis, environment, and monitoring tools; automated non-functional testing across four projects.
+        - Led and mentored QA engineers while introducing InfluxDB/Grafana visibility and reducing manual environment support by 2-4x.
+      technologies: Python, Go, Bash, JMeter, FIX, ITCH, Ansible, InfluxDB, Grafana, SQL
 
-  - role: Quality Assurance Team Lead - Trading & Low-Latency
-    time: May 2018 - August 2020
-    company: <a href="exactpro.com">Exactpro</a>
-    details: |
-      What I did:
-        - Automated testing for non-standard financial/trading flows (FIX, ITCH, native exchange)
-        - Built custom testing & analysis tools
-        - Reviewed specs/requirements and turned them into test cases
-        - Mentored junior testers
-        - Optimized testing processes and met tight release cycles
-
-      Impact:
-        - Manual support of test environments reduced by 2-4x via automation (provisioning, reset, checks)
-        - Delivered PoC for big-data / time-series analysis to speed up incident and performance analysis
-        - Added InfluxDB + Grafana dashboards for test/run visibility
-
-      Tech Stack:
-        - Python, Shell/Bash, Golang, InfluxDB, Grafana, Ansible, Jmeter
-
-  - role: Senior Quality Assurance Specialist
-    time: October 2016 - May 2018
-    company: <a href="exactpro.com">Exactpro</a>
-    details: |
-      What I did:
-        - Tested financial/trading applications (non-functional + regression)
-        - Automated non-standard trading flows (FIX, ITCH, native exchange)
-        - Performed load/performance testing and built test tools
-        - Analyzed specs and mentored junior QA specialists
-
-      Impact:
-        - Automated non-functional testing for 4 projects → consistent performance validation across trading systems
-        - Built automated monitoring for testing environments → reduced manual checks and faster issue detection
-        - Established data visualization with InfluxDB + Grafana → real-time test metrics and performance insights
-
-      Tech Stack: Python, Shell/Bash, Golang, InfluxDB, Grafana, Ansible, JMeter, FIX/ITCH protocols, MySQL, MSSQL, PLSQL, Jira, Confluence, Redmine
-
-  - role: Quality Assurance Specialist
-    time: February 2014 - October 2016
-    company: <a href="exactpro.com">Exactpro</a>
-    details: |
-      What I did:
-        - Designed functional/regression tests for low-latency trading systems
-        - Performed load testing for high-frequency apps
-        - Built automated testing/analysis tools
-        - Analyzed specs and reported issues
-
-      Impact:
-        - Created proof-of-concept for non-functional testing automation framework → foundation for future automation initiatives
-
-      Tech Stack: Python, Shell/Bash, MySQL, MSSQL, PLSQL, FIX protocol, ITCH protocol, native exchange protocols, Jira, Confluence, Redmine
-
-  - role: System Administrator Weblogic and Oracle Service Bus
-    time: March 2013 - February 2014
-    company: Home Credit & Finance Bank
-    details: |
-      What I did:
-        - Provided 24x7 support for central integrated banking system (Oracle Service Bus)
-        - Monitored system performance and analyzed metrics
-        - Resolved real-time production issues and incidents
-        - Supported and maintained test environments
-        - Created automation scripts for system administration tasks
-
-      Impact:
-        - Automated test environment configuration and deployment → reduced setup time and human errors
-        - Maintained 99.9% uptime for critical banking infrastructure → ensured business continuity
-        - Resolved production incidents with average response time under 15 minutes → minimized business impact
-
-      Tech Stack: RHEL, WebLogic, Oracle Service Bus, Python, Jython, Shell, Apache HTTP Server, Jira, Remedy, CA Wily monitoring
-
-  - role: Network Engineer / System Administrator
-    time: December 2010 - March 2013
-    company: All-Russia Research Institute of Hydrometeorological Information, World Data Centre (RIHMI-WDC). Russia, Obninsk.
-    details: |
-      What I did:
-        - Created, migrated and supported VMs in VMware ESXi infrastructure
-        - Managed, configured and supported enterprise network equipment
-        - Maintained remote servers and UNIX systems (FreeBSD)
-        - Deployed and maintained web services, databases, and network services
-        - Created automation scripts for system administration tasks
-
-      Impact:
-        - Integrated comprehensive IT infrastructure monitoring system (Zabbix) → proactive issue detection and faster resolution
-        - Successfully deployed METEORF central communication infrastructure → improved meteorological data exchange
-        - Managed multi-vendor network infrastructure → ensured reliable connectivity across research facilities
-
-      Tech Stack: VMware ESXi, FreeBSD, MySQL, PostgreSQL, Apache, nginx, Python, Perl, PHP, Zabbix, D-Link, Cisco, Mikrotik, Ubiquiti network equipment
-
-#projects:
-    #title: Projects
-    #intro: >
-      #You can list your side projects or open source libraries in this
-      #section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
-    #assignments:
-      #- title: Velocity
-        #link: "#hook"
-        #tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      #- title: DevStudio
-        #link: "#"
-        #tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      #- title: Tempo
-        #link: "#"
-        #tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      #- title: Atom
-        #link: "#"
-        #tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      #- title: Delta
-        #link: "#"
-        #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-
-# education:
-#     - degree: Master Degree
-#       university: Obninsk Institute of Atomic Energy at National Nuclear Research University "MEPhI"
-#       time: 2010 - 2012
-#       details: |
-    
-#     - degree: Bachelor Degree
-#       university: Obninsk Institute of Atomic Energy at National Nuclear Research University "MEPhI"
-#       time: 2006 - 2010
-#       details: |
+    - role: Earlier Infrastructure Experience
+      time: Dec 2010 - Feb 2014
+      company: Home Credit & Finance Bank; RIHMI-WDC
+      highlights:
+        - Supported banking middleware and research infrastructure across Linux/Unix, WebLogic/OSB, VMware, networks, databases, monitoring, and automation.
+      technologies: RHEL, FreeBSD, WebLogic, Oracle Service Bus, VMware ESXi, Python, Jython, Zabbix
 
 
 education:
