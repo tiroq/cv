@@ -1,0 +1,10 @@
+{% assign research = site.data.data.research %}
+<section class="resume-section research-section" aria-labelledby="research-title">
+  <h2 id="research-title">{{ research.title }}</h2>
+  <article class="research-card">
+    <h3>{{ research.name }}</h3>
+    <p>{{ research.description }}</p>
+    <p class="tech-line">{{ research.technologies }}</p>
+  </article>
+</section>
+
